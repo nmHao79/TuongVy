@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+  color: rgb(237, 159, 57);
+  text-shadow: 1cm;
+}
+h2 {
+  text-align: center;
+  visibility: hidden;
+}
+img {
+  visibility: hidden;
+}
+input:checked ~ img {
+  visibility: visible;
+}
+input:checked ~ h2 {
+  visibility: visible;
+}
